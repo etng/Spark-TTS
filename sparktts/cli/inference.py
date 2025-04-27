@@ -22,7 +22,7 @@ import logging
 from datetime import datetime
 import platform
 
-from cli.SparkTTS import SparkTTS
+from .SparkTTS import SparkTTS
 
 
 def parse_args():
